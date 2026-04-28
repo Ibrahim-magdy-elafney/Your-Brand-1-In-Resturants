@@ -225,9 +225,29 @@ select {
 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+    list-style: none;
+    width: 300px;
 
 
+}
+
+.Mainbox a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.Cont {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-left: 95px;
 
 }
 
