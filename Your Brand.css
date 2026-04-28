@@ -221,6 +221,16 @@ select {
 
 }
 
+.Mainbox {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+}
+
 .menu-card {
     display: flex;
     gap: 20px;
