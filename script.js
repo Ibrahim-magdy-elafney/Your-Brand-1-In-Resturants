@@ -80,7 +80,7 @@ ${time2 || "Not Specified"}
 ${messageField || "No Notes"}`;
 
     // رقم الواتساب
-    const phone = "2010XXXXXXXX";
+    const phone = "2010xxxxxxxx";
 
     // رابط الواتساب
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
