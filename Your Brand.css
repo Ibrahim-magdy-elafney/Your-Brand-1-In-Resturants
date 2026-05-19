@@ -25,34 +25,36 @@ body {
         align-items: center;
         margin: 10px;
         padding: 15px;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: center;
 
     }
 
-    .box {
+}
 
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
+.box {
 
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        margin: 0;
-        padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 
-        flex-direction: column;
-        width: 100%;
-        gap: 15px;
-        align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
+    flex-direction: row;
+    width: 450px;
+    gap: 15px;
 
-        color: #fff;
-        background: #1a1a1a;
-        border: 1px solid rgba(255, 60, 0, 0.5);
+    align-items: center;
+    font-size: 10px;
+    margin-left: 3px;
 
-    }
+    color: #fff;
+    background: #1a1a1a;
+    border: 1px solid rgba(255, 60, 0, 0.5);
 
 }
 
@@ -164,6 +166,39 @@ button:hover {
 
 }
 
+.header-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 2px;
+
+
+}
+
+.section-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    justify-content: flex-start;
+
+}
+
+.title-with-icon {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+}
+
 .text {
 
     width: 100%;
@@ -183,6 +218,28 @@ img {
         max-height: 250px;
         object-fit: cover;
     }
+}
+
+.Burger {
+
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+    border-radius: 0;
+
+}
+
+.Bizza {
+
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
 }
 
 .box a {
@@ -221,7 +278,23 @@ select {
 
 }
 
+.date {
+
+    color: white;
+
+}
+
+.phone {
+
+    color: white;
+
+}
+
 .Mainbox {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 
     display: flex;
     flex-direction: row;
