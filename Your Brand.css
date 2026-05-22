@@ -220,18 +220,6 @@ img {
     }
 }
 
-.Burger {
-
-    width: 150px;
-    height: 150px;
-    margin: 0;
-    padding: 0;
-    object-fit: contain;
-
-    border-radius: 0;
-
-}
-
 .Bizza {
 
     width: 200px;
